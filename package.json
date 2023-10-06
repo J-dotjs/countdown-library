@@ -1,5 +1,5 @@
 {
-  "name": "date-extended",
+  "name": "qol-date-functions",
   "version": "0.0.1",
   "description": "A library that takes a Node.js Date object and returns the timestamp for x amount of time in the future (past may come soon)",
   "main": "index.js",
