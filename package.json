@@ -1,0 +1,19 @@
+{
+  "name": "countdown-library",
+  "version": "0.0.1",
+  "description": "A library that takes a Node.js Date object and returns the timestamp for x amount of time in the future (past may come soon)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-dotjs/countdown-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-dotjs/countdown-library/issues"
+  },
+  "homepage": "https://github.com/J-dotjs/countdown-library#readme"
+}
