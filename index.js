@@ -1,3 +1,7 @@
+function addSeconds(date, seconds) {
+    return new Date(date.getTime() + seconds * 1000);
+}
+
 function addHours(date, hours) {
     return new Date(date.getTime() + hours * 60 * 60 * 1000);
 }
@@ -18,7 +22,14 @@ function addYears(date, years) {
     return new Date(date.getFullYear() + years);
 }
 
+function toUnix(date) {
+    return Math.floor(date.getTime() / 1000);
+}
+
+
 module.exports = {
+    toUnix,
+    addSeconds,
     addHours,
     addDays,
     addWeeks,
