@@ -1,5 +1,5 @@
 {
-  "name": "@j-dotjs/countdown-library",
+  "name": "qol-countdown-functions",
   "version": "0.0.2",
   "description": "A library that takes a Node.js Date object and returns the timestamp for x amount of time in the future (past may come soon)",
   "main": "index.js",

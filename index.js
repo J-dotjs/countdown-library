@@ -26,6 +26,33 @@ function toUnix(date) {
     return Math.floor(date.getTime() / 1000);
 }
 
+function convertToSeconds(date) {
+    return date.getTime() / 1000;
+}
+
+function convertToMinutes(date) {
+    return date.getTime() / 1000 / 60;
+}
+
+function convertToHours(date) {
+    return date.getTime() / 1000 / 60 / 60;
+}
+
+function convertToDays(date) {
+    return date.getTime() / 1000 / 60 / 60 / 24;
+}
+
+function convertToWeeks(date) {
+    return date.getTime() / 1000 / 60 / 60 / 24 / 7;
+}
+
+function convertToMonths(date) {
+    return date.getTime() / 1000 / 60 / 60 / 24 / 30;
+}
+
+function convertToYears(date) {
+    return date.getTime() / 1000 / 60 / 60 / 24 / 365;
+}
 
 module.exports = {
     toUnix,
@@ -34,5 +61,12 @@ module.exports = {
     addDays,
     addWeeks,
     addMonths,
-    addYears
+    addYears,
+    convertToSeconds,
+    convertToMinutes,
+    convertToHours,
+    convertToDays,
+    convertToWeeks,
+    convertToMonths,
+    convertToYears
 }
