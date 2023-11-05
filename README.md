@@ -45,7 +45,7 @@ timeFunctions.convertToWeeks(date); // converts the date object to weeks
 ```
 
 ## Planned Features
-- [] Subtract from date object instead of add to it
+- [ ] Subtract from date object instead of add to it
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
